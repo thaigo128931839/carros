@@ -29,9 +29,18 @@ p{
     font-size: 0.935rem;
     color: var(--tranparetion-white);
     margin-bottom: 1.875rem  ;
+    line-height: 1.526rem;
 }
 a{
     font-family: 'Lexend Deca', sans-serif;
+    display:block;
+    text-decoration: none;
+    border:  2px solid var(--gray);
+    width:  fit-content;
+    font-size: 0.935rem;
+    padding: 0.75rem 2.5rem;
+    border-radius: 1.658rem;
+    background:  var(--gray);
 }
 
 section{
@@ -40,6 +49,7 @@ section{
 
 .sedans {
     background: var(--orange);
+    border-radius: 8px 8px 0 0 ;
 }
 
 .suvs{
@@ -47,4 +57,16 @@ section{
 }
 .luxuosos{
     background: var(--dark);
+    border-radius: 0 0 08px ;
+}
+
+.sedans a{
+    color: var(--orange);
+}
+
+.suvs a{
+    color: var(--cyan) ;
+}
+.luxuosos a{
+    color: var(--dark) ;
 }
