@@ -20,14 +20,22 @@ h2{
     text-transform: uppercase;
     font-size: 2.5rem;
     color:var(--gray);
-    
+    margin-block:1.875rem ;
+
 
 }
 p{
     font-family: 'Lexend Deca', sans-serif;
+    font-size: 0.935rem;
+    color: var(--tranparetion-white);
+    margin-bottom: 1.875rem  ;
 }
 a{
     font-family: 'Lexend Deca', sans-serif;
+}
+
+section{
+    padding: 3rem;
 }
 
 .sedans {
